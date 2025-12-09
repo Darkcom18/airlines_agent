@@ -1,0 +1,146 @@
+# ===========================================
+# C1 Travel Agent System - Git Ignore Rules
+# ===========================================
+
+# Environment & Credentials - CRITICAL SECURITY
+.env
+.env.*
+!.env.example
+*.env.local
+*.env.production
+*.env.development
+*.env.staging
+
+# Claude Code Settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Logs
+*.log
+logs/
+log/
+*.log.*
+
+# Secrets & Keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+secrets/
+credentials/
+.secrets/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.cache
+
+# OS Specific
+Thumbs.db
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+local_settings.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / Packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/

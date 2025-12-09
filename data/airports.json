@@ -1,0 +1,30 @@
+{
+  "airports": [
+    {"code": "SGN", "name": "Tân Sơn Nhất", "city": "TP. Hồ Chí Minh", "country": "Vietnam"},
+    {"code": "HAN", "name": "Nội Bài", "city": "Hà Nội", "country": "Vietnam"},
+    {"code": "DAD", "name": "Đà Nẵng", "city": "Đà Nẵng", "country": "Vietnam"},
+    {"code": "CXR", "name": "Cam Ranh", "city": "Nha Trang", "country": "Vietnam"},
+    {"code": "PQC", "name": "Phú Quốc", "city": "Phú Quốc", "country": "Vietnam"},
+    {"code": "VDO", "name": "Vân Đồn", "city": "Quảng Ninh", "country": "Vietnam"},
+    {"code": "HPH", "name": "Cát Bi", "city": "Hải Phòng", "country": "Vietnam"},
+    {"code": "HUI", "name": "Phú Bài", "city": "Huế", "country": "Vietnam"},
+    {"code": "VII", "name": "Vinh", "city": "Nghệ An", "country": "Vietnam"},
+    {"code": "VCA", "name": "Cần Thơ", "city": "Cần Thơ", "country": "Vietnam"},
+    {"code": "BMV", "name": "Buôn Ma Thuột", "city": "Đắk Lắk", "country": "Vietnam"},
+    {"code": "DLI", "name": "Liên Khương", "city": "Đà Lạt", "country": "Vietnam"},
+    {"code": "UIH", "name": "Phù Cát", "city": "Quy Nhơn", "country": "Vietnam"},
+    {"code": "VCL", "name": "Chu Lai", "city": "Quảng Nam", "country": "Vietnam"},
+    {"code": "TBB", "name": "Tuy Hòa", "city": "Phú Yên", "country": "Vietnam"},
+    {"code": "VKG", "name": "Rạch Giá", "city": "Kiên Giang", "country": "Vietnam"},
+    {"code": "CAH", "name": "Cà Mau", "city": "Cà Mau", "country": "Vietnam"},
+    {"code": "VCS", "name": "Côn Đảo", "city": "Bà Rịa - Vũng Tàu", "country": "Vietnam"},
+    {"code": "PXU", "name": "Pleiku", "city": "Gia Lai", "country": "Vietnam"},
+    {"code": "DIN", "name": "Điện Biên Phủ", "city": "Điện Biên", "country": "Vietnam"}
+  ],
+  "airlines": [
+    {"code": "VN", "name": "Vietnam Airlines", "type": "full-service"},
+    {"code": "VJ", "name": "VietJet Air", "type": "low-cost"},
+    {"code": "QH", "name": "Bamboo Airways", "type": "hybrid"},
+    {"code": "BL", "name": "Pacific Airlines", "type": "low-cost"}
+  ]
+}
